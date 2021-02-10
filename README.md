@@ -57,19 +57,24 @@ echo "ola mundo" | openssl sha1
    -blob
  
  - Commits
-  - tree s4a5sq
-  - parente a98acq1
-  - autor perkles
-  - mensagem "inici..."
-  - timestamp
+   - tree s4a5sq
+   - parente a98acq1
+   - autor perkles
+   - mensagem "inici..."
+   - timestamp
 
 - Sistemas Distribuidos
  - Definir
-- Segurança 
+ - Segurança 
  - Definir
  
- Primeiros Commandos com Git
-  - Iniciando o GIt e criado um commit
+- Primeiros Commandos com Git
+   - Iniciando o Git
+   git init
+   git add * ou arquivo
+   git commit - m "msg"
+   
+  - criando um commit
  
  Ciclo de vida dos arquivos Git
   - Passo a passo
