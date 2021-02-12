@@ -1,35 +1,46 @@
-# git-github
+![Image of Yaktocat](https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/git-and-git-hub-basics/work-with-the-git-hub-workflow/images/17cdcf6d5135213b505e04eb6c7be614_4-collaborate.png)
 
-<b>Git do Zero</b></br>
+# Git-GitHub do Zero
+
+
+## 00 - Instalando o Git na sua máquina.
+
+Usuários dos Sistemas Operacionais(OS) **MAC** e **Linux** não precise instalar pois o Git já vem de fábrica.
+
+Para instalar o git na sua máquina (caso ainda não o tenha) no caso usuários **Windows** irão ter de baixá-lo. 
+
+não precisa se precupar, pois a instalaçao é bem fácil de fazer [instalar](https://git-scm.com/).
 
  
- <b>Por quê ?</b></br>
+### Por quê ?
+
+Imagine contribuir com um projeto grande, com colaboradores de todas as partes do mundo fazendo alterações (às vezes ao mesmo tempo) em um mesmo arquivo ? Se você já conhece git sabe que isso causará provavelmente muitos conflitos que podem soar desesperadores e por vezes complicados de resolver.
+
   1 - Controle de Versão</br>
   2 - Armazenamento em nuvem</br>
   3 - Melhorar seu código</br>
   5 - Reconhecimento</br>
 
-<b>O que é Git ?</b></br>
+### O que é Git ?
+
   Um sistema de controle de versão, moderno e mais usado no mundo. O Git é um projeto de código aberto, com manutenção ativa desenvolvido em 2005 por Linus Torvalds,  mesmo criado do kernel Linux.</br>
   Muitos projetos de software depende do Git para controle de versão, projetos código-fonte aberto e incluindo projetos comerciais.</br>
   Os desenvolvedores que trabalharam com o Git estão bem representados no pool de talentos de desenvolvimento de software disponíveis e funcionam bem em uma ampla variedade de sistemas operacionais e IDEs (Ambientes de Desenvolvimento Integrado).</br>
   Sendo um exemplo de DVCS (Sistema de Controle de Versão Distribuído). o Git se diferencia porque a cópia de trabalho de todo desenvolvedor do código também é um repositório que pode conter o histórico completo de todas as alterações.
   Além de ser distribuído, o Git foi projetado com desempenho, segurança e flexibilidade em mente.</br>
 
-<b>Instalação</b></br>
- - https://git-scm.com/download/win
  
-Navegação CLI
+### Navegação CLI
 
 Comandos basicos para um bom desempenho no terminal
 Diferença entre os sistemas operacionais
-Comandos windows
+#### Comandos windows
   cd, dir, mkdir,del/rmdir
 
-Comandos Unix
+#### Comandos Unix
   cd, ls, mkdir, rm / -rf
   
-Fundamentos Git
+### Fundamentos Git
 
 - SHA1
 Secure hash Algorithm (Algoritmo de Hash Seguro), é um conjunto de funções hash criptograficas projedadas pela NSA (Agência de Segurança nacional dos EUA).
