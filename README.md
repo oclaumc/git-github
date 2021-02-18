@@ -100,27 +100,28 @@ echo "ola mundo" | openssl sha1
 >mkdir <nome da pasta> cd <nome da pasta>
 
 ### Inicializando seu projeto com o git
-git init
+
+> git init
 
 ### Verifique suas alterações no arquivo
 
-git status
+> git status
 
 ### Para que o arquivo seja monitorado pelo git
 
-git add <nome do arquivo> ou git add .
+> git add <nome do arquivo> ou git add .
 
-Observação: o git add . adiciona todos os arquivos para serem monitorados.
+### Observação: o git add . adiciona todos os arquivos para serem monitorados.
 
-Para gravar suas alterações no arquivo. Coloque uma mensagem objetiva
+#### Para gravar suas alterações no arquivo. Coloque uma mensagem objetiva
 
-git commit -m "Descrição do Commit"
+> git commit -m "Descrição do Commit"
 
-Verifica todas as alterações feitas no projeto que está sendo monitorado
+#### Verifica todas as alterações feitas no projeto que está sendo monitorado
 
-git log
+> git log
 
-Para que o git não monitore arquivos, é necessário criar um arquivo do tipo
+#### Para que o git não monitore arquivos, é necessário criar um arquivo do tipo
 
 .gitignore
 
