@@ -2,6 +2,8 @@
 
 # Git-GitHub do Zero
 
+Repositorios local (Git) vs Repostório Remoto (GitHub), esse é o significado resumido da diferenças entre os dois.
+
 
 ## 00 - Instalando o Git na sua máquina.
 
@@ -9,10 +11,10 @@ Usuários dos Sistemas Operacionais(OS) **MAC** e **Linux** não precise instala
 
 Para instalar o git na sua máquina (caso ainda não o tenha) no caso usuários **Windows** irão ter de baixá-lo. 
 
-não precisa se precupar, pois a instalaçao é bem fácil de fazer [instalar](https://git-scm.com/).
+não precisa se precupar, pois a instalaçao é bem fácil de fazer, acesse [git](https://git-scm.com/) baixe o aquivos e siga as instruções.
 
  
-### Por quê ?
+## Por quê ?
 
 Imagine contribuir com um projeto grande, com colaboradores de todas as partes do mundo fazendo alterações (às vezes ao mesmo tempo) em um mesmo arquivo ? Se você já conhece git sabe que isso causará provavelmente muitos conflitos que podem soar desesperadores e por vezes complicados de resolver.
 
@@ -21,7 +23,7 @@ Imagine contribuir com um projeto grande, com colaboradores de todas as partes d
   3 - Melhorar seu código</br>
   5 - Reconhecimento</br>
 
-### O que é Git ?
+## O que é Git ?
 
   Um sistema de controle de versão, moderno e mais usado no mundo. O Git é um projeto de código aberto, com manutenção ativa desenvolvido em 2005 por Linus Torvalds,  mesmo criado do kernel Linux.</br>
   Muitos projetos de software depende do Git para controle de versão, projetos código-fonte aberto e incluindo projetos comerciais.</br>
@@ -30,17 +32,19 @@ Imagine contribuir com um projeto grande, com colaboradores de todas as partes d
   Além de ser distribuído, o Git foi projetado com desempenho, segurança e flexibilidade em mente.</br>
 
  
-### Navegação CLI
+## Navegação CLI
+### Command Line Interface
 
 Comandos basicos para um bom desempenho no terminal
 Diferença entre os sistemas operacionais
-#### Comandos windows
+
+### Comandos windows
   cd, dir, mkdir,del/rmdir
 
-#### Comandos Unix
+### Comandos Unix
   cd, ls, mkdir, rm / -rf
   
-### Fundamentos Git
+## Fundamentos Git
 
 - SHA1
 Secure hash Algorithm (Algoritmo de Hash Seguro), é um conjunto de funções hash criptograficas projedadas pela NSA (Agência de Segurança nacional dos EUA).
@@ -79,11 +83,22 @@ echo "ola mundo" | openssl sha1
  - Segurança 
  - Definir
  
-- Primeiros Commandos com Git
-   - Iniciando o Git
-   git init
-   git add * ou arquivo
-   git commit - m "msg"
+## Primeiros Commandos com Git
+### Configurando o GIT
+
+Verifique se o Git foi instalado corretamente. Deverá retornar a versão instalada.
+
+git --version
+
+Configure o Git com os seus dados:
+
+git config --global user.name <seu nome>
+
+git config --global user.email <seu e-mail>
+
+Crie a pasta do seu projeto e faça o acesso à ela
+
+mkdir <nome da pasta> cd <nome da pasta>
    
   - criando um commit
  
@@ -91,3 +106,6 @@ echo "ola mundo" | openssl sha1
   - Passo a passo
  
 Conclusão
+
+Referencias
+git@github.com:rlima-nogueira/studying-git.git
