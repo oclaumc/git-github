@@ -134,6 +134,3 @@ Dentro do arquivo, você deve colocar o nome dos arquivos que deseja ignorar
   - Passo a passo
  
 Conclusão
-
-Referencias
-git@github.com:rlima-nogueira/studying-git.git
