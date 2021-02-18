@@ -85,20 +85,47 @@ echo "ola mundo" | openssl sha1
  
 ## Primeiros Commandos com Git
 ### Configurando o GIT
+#### Verifique se o Git foi instalado corretamente. Deverá retornar a versão instalada.
 
-Verifique se o Git foi instalado corretamente. Deverá retornar a versão instalada.
+> git --version
 
-git --version
+#### Configure o Git com os seus dados:
 
-Configure o Git com os seus dados:
+> git config --global user.name <seu nome>
 
-git config --global user.name <seu nome>
+> git config --global user.email <seu e-mail>
 
-git config --global user.email <seu e-mail>
+#### Crie a pasta do seu projeto e faça o acesso à ela
 
-Crie a pasta do seu projeto e faça o acesso à ela
+>mkdir <nome da pasta> cd <nome da pasta>
 
-mkdir <nome da pasta> cd <nome da pasta>
+### Inicializando seu projeto com o git
+git init
+
+### Verifique suas alterações no arquivo
+
+git status
+
+### Para que o arquivo seja monitorado pelo git
+
+git add <nome do arquivo> ou git add .
+
+Observação: o git add . adiciona todos os arquivos para serem monitorados.
+
+Para gravar suas alterações no arquivo. Coloque uma mensagem objetiva
+
+git commit -m "Descrição do Commit"
+
+Verifica todas as alterações feitas no projeto que está sendo monitorado
+
+git log
+
+Para que o git não monitore arquivos, é necessário criar um arquivo do tipo
+
+.gitignore
+
+Dentro do arquivo, você deve colocar o nome dos arquivos que deseja ignorar
+
    
   - criando um commit
  
