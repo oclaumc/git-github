@@ -111,7 +111,7 @@ echo "ola mundo" | openssl sha1
 
 > git add <nome do arquivo> ou git add .
 
-### Observação: o git add . adiciona todos os arquivos para serem monitorados.
+### Observação: o git add * adiciona todos os arquivos para serem monitorados.
 
 #### Para gravar suas alterações no arquivo. Coloque uma mensagem objetiva
 
@@ -127,10 +127,10 @@ echo "ola mundo" | openssl sha1
 
 Dentro do arquivo, você deve colocar o nome dos arquivos que deseja ignorar
 
-   
-  - criando um commit
- 
- Ciclo de vida dos arquivos Git
-  - Passo a passo
- 
-Conclusão
+#### Adicionando git remoto ex:(GitHub)
+
+>git remote add oclaumc https://github.com/oclaumc/clauberto.git
+
+#### Enviando arquivos para o git remoto
+
+>git push oclaumc master
